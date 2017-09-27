@@ -1,0 +1,701 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+    	<!-- meta character set -->
+        <meta charset="utf-8">
+		<!-- Always force latest IE rendering engine or request Chrome Frame -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>Rodrigo's Website</title>
+		<!-- Meta Description -->
+        <meta name="description" content="Rodrigo Delgado's Interactive Resume">
+        <meta name="keywords" content="Resume Information">
+        <meta name="author" content="Rodrigo Delgado">
+
+		<!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://js.cit.api.here.com/v3/3.0/mapsjs-core.js"></script>
+    <script type="text/javascript" src="https://js.cit.api.here.com/v3/3.0/mapsjs-service.js"></script>
+    <script type="text/javascript" src="https://js.cit.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+    <script type="text/javascript" src="https://js.cit.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+		<!-- Fontawesome Icon font -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/slit-slider.css">
+		<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/animate.css">
+		<!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+
+		<!-- Modernizer Script for old Browsers -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+
+    </head>
+    <body id="body">
+
+      <!-- preloader -->
+      <div id="preloader">
+              <div class="loder-box">
+                <div class="battery"></div>
+              </div>
+      </div>
+      <!-- end preloader -->
+          <!--
+          Fixed Navigation
+          ==================================== -->
+          <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+              <div class="container">
+                  <div class="navbar-header">
+                      <!-- responsive nav button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+                      </button>
+            <!-- /responsive nav button -->
+
+            <!-- logo -->
+            <h1 class="navbar-brand">
+              <a href="#body">Rodrigo Delgado</a>
+            </h1>
+            <!-- /logo -->
+                  </div>
+
+          <!-- main nav -->
+                  <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                      <ul id="nav" class="nav navbar-nav">
+                          <li><a href="#body">Home</a></li>
+                          <li><a href="#service">Skills</a></li>
+                          <li><a href="#portfolio">Portfolio</a></li>
+                          <li><a href="#testimonials">Testimonial</a></li>
+                          <li><a href="#contact">Contact</a></li>
+                      </ul>
+                  </nav>
+          <!-- /main nav -->
+
+              </div>
+          </header>
+          <!--
+
+          <main class="site-content" role="main">
+
+                  <!--
+                  Home Slider
+                  ==================================== -->
+
+          	<section id="home-slider">
+            	<div id="slider" class="sl-slider-wrapper">
+          			<div class="sl-slider">
+          				<div class="sl-slide" data-orientation="horizontal"
+          					data-slice1-rotation="-25" data-slice2-rotation="-25"
+          					data-slice1-scale="2" data-slice2-scale="2">
+          						<div class="bg-img bg-img-1"></div>
+
+          						<div class="slide-caption">
+                        <div class="caption-content">
+                          <h2 class="animated fadeInDown">Rodrigo Delgado</h2>
+                          <span class="animated fadeInDown">Web Developer</span>
+                          <a href="#contact" class="btn btn-blue btn-effect">Contact Me</a>
+                        </div>
+                      </div>
+          					</div>
+
+          					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10"
+          						data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+
+          						<div class="bg-img bg-img-2"></div>
+          						<div class="slide-caption">
+                        <div class="caption-content">
+          	              <h2>Front End</h2>
+          	              <span>React &amp; Angular</span>
+          	              <a href="#contact" class="btn btn-blue btn-effect">Contact Me</a>
+                    		</div>
+                			</div>
+          					</div>
+
+          					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3"
+          						data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+
+          					<div class="bg-img bg-img-3"></div>
+          						<div class="slide-caption">
+                        <div class="caption-content">
+                            <h2>Back End</h2>
+                            <span>Node JS</span>
+                            <a href="#contact" class="btn btn-blue btn-effect">Contact Me</a>
+                        </div>
+                    </div>
+
+          					</div>
+          				</div><!-- /sl-slider -->
+                  	<nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">
+                      <a href="javascript:;" class="sl-prev">
+                        <i class="fa fa-angle-left fa-3x"></i>
+                      </a>
+                      <a href="javascript:;" class="sl-next">
+                        <i class="fa fa-angle-right fa-3x"></i>
+                      </a>
+                    </nav>
+
+          					<nav id="nav-dots" class="nav-dots visible-xs visible-sm hidden-md hidden-lg">
+          						<span class="nav-dot-current"></span>
+          						<span></span>
+          						<span></span>
+          					</nav>
+
+          		</div><!-- /slider-wrapper -->
+          	</section>
+
+                  <!--
+                  End Home SliderEnd
+                  ==================================== -->
+
+          			<!-- about section -->
+          	<section id="about" >
+          		<div class="container">
+          			<div class="row">
+          				<div class="col-md-4 wow animated fadeInLeft">
+          					<div class="recent-works"><br />
+          						<h3>Experience</h3>
+          						<div id="works">
+          							<div class="work-item">
+
+          								<p>
+          									I am a Web Developer who has recently transitioned from
+          									a background in hospitality management. <br><br>
+          									I graduated as a Web Developer from EDA Enspiral
+          									Dev-Academy where I learnt technologies such as HTML5, CSS3, SQL,
+          									JavaScript, React.js, Node.js, Git and GitHub.
+          								</p><br>
+
+          								<p>
+          									<a href="img/portfolio/RD-WD-CV-2017.pdf"
+          										target="_blank">My CV</a>
+          								</p>
+          								<p>
+          									<a href="img/portfolio/graduation-certificate.pdf"
+          										target="_blank">Graduation Certificate</a>
+          								</p>
+          								<p>
+          									<a href="img/portfolio/Javascript-test.pdf"
+          										target="_blank">Javascript Test</a>
+          								</p>
+          								<p>
+          									<a href="img/portfolio/HTML5-CSS-test.pdf"
+          										target="_blank">HTML5 &amp; CSS3 Test</a>
+          								</p>
+
+          							</div>
+
+          							<div class="work-item">
+          								<p>
+          									People who I have worked with will describe me as a team player
+          									who is absolutely reliable and fun to work with.
+          									They would also say that I work hard and learn fast.<br><br>
+          									I thrive working under pressure. I enjoy working with other people
+          									and being creative by coming up with new ideas and approaches.
+          									I am also able to speak Spanish (mother tongue) and English.
+          								</p>
+          							</div>
+
+          							<div class="work-item">
+                          <p>
+          									For the final project, my group and I created a learning
+          									Te Reo app, "Korero Mai". This app is intended to be used as a
+          									tool to help children ages 5 to 6 get familiar with Te Reo.
+          									It focuses on learning pronunciation and simple words through
+          									two main types of activities.
+          								</p>
+          							</div>
+          						</div>
+          					</div>
+          				</div>
+          				<div class="col-md-7 col-md-offset-1 wow animated fadeInRight">
+          					<div class="welcome-block"><br />
+          						<h3>About Me</h3>
+          				     	<div class="message-body">
+          								<img src="img/people/rodrigo.jpg" class="pull-left" alt="member">
+          				       	<p>
+          									I am currently looking for an entry-level web developer
+          									position and for an environment in which I can learn,
+          									develop and explore different technologies.<br><br>
+          								</p>
+
+                          <p>
+          									During my spare time I try to keep fit, playing music and explore my passion for
+          									new technologies. I also love cooking for friends and family. I have a keen interest
+          									in photography and I have had visited, with my camera, several countries within
+          									Europe, South East Asia and Latin America.
+          								</p>
+
+          				     	 </div>
+          				       	<a href="https://nz.linkedin.com/in/rodrigo-delgado-5bbb3655"
+          								class="btn btn-border btn-effect pull-right" target="_blank" >Read More</a><br />
+          				    </div>
+          				</div>
+          			</div>
+          		</div>
+          	</section>
+          		<!-- end about section -->
+
+          			<!-- Skills section -->
+          			<section id="service">
+          				<div class="container">
+          					<div class="row">
+
+          						<div class="sec-title text-center"><br />
+          							<h2 class="wow animated bounceInRight">Skills</h2>
+          							<p class="wow animated bounceInLeft">Development</p>
+          						</div>
+
+          						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
+          							<div class="service-item">
+          								<div class="service-icon">
+          									<i class="fa fa-html5 fa-3x"></i>
+          								</div>
+          								<h3>HTML5 &amp; CSS3</h3>
+          								<p>Markup &amp; Style </p>
+          							</div>
+          						</div>
+
+          						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+          							<div class="service-item">
+          								<div class="service-icon">
+          									<i class="fa fa-mobile fa-4x"></i>
+          								</div>
+          								<h3>Responsive</h3>
+          								<p>Looks great on any device</p>
+          							</div>
+          						</div>
+
+          						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
+          							<div class="service-item">
+          								<div class="service-icon">
+          									<i class="fa fa-heart fa-3x"></i>
+          								</div>
+          								<h3>JavaScript</h3>
+          								<p>React &amp; Angular 2</p>
+          							</div>
+          						</div>
+
+          						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+          							<div class="service-item">
+          								<div class="service-icon">
+          									<i class="fa fa-github fa-3x"></i>
+          								</div>
+
+          								<h3>Git and Github</h3>
+          								<p>Version Control System</p>
+          							</div>
+          						</div>
+
+          					</div>
+          				</div>
+          			</section>
+          			<!-- end Service section -->
+
+          			<!-- Portfolio -->
+          			<section id="portfolio">
+          				<div class="container">
+          					<div class="row">
+
+          						<div class="sec-title text-center wow animated fadeInDown"><br />
+          							<h2>Portfolio</h2>
+          							<p>Some of my Work.</p>
+          						</div>
+
+
+          						<ul class="project-wrapper wow animated fadeInUp">
+          							<li class="portfolio-item">
+
+          								<!-- Hospice -->
+          								<img src="img/portfolio/hospice.png" class="img-responsive"
+          									alt="<h5>The work I have done on this project were:</h5>
+          									<ul>
+          										<li>Site Migration.</li>
+          										<li>Apache Configuration.</li>
+          										<li>Update Database.</li>
+          										<li>PHP Update.</li>
+          									</ul>
+          									<h5>To visit the site please
+          									<a href='http://www.hospice.org.nz/' target='_blank'>
+          										click here.</a></h5>">
+
+          								<figcaption class="mask">
+          									<h3>Hospice</h3>
+          									<p>New Zealand</p>
+          								</figcaption>
+
+          								<ul class="external">
+          									<li><a class="fancybox" title="Hospice"
+          										data-fancybox-group="works" href="img/portfolio/hospice.png">
+          										<i class="fa fa-plus"></i></a></li>
+          									<!-- <li><a href=""><i class="fa fa-link"></i></a></li> -->
+          								</ul>
+          							</li>
+          							<!-- End of Hospice -->
+
+          							<!-- Landsar Wellington -->
+          							<li class="portfolio-item">
+          								<img src="img/portfolio/landsar.png" class="img-responsive"
+
+          									alt="
+          									<h5>For this project I updated SilverStripe CMS and modules
+          									to the latest version.
+          									To visit the site please
+          									<a href='https://www.landsar.org.nz/'
+          									target='_blank'>click here.</a> </h5>">
+
+          								<figcaption class="mask">
+          									<h3>Landsar Wellington</h3>
+          									<p>
+          										New Zealand Land Search and Rescue Inc. (LandSAR)
+          									</p>
+          								</figcaption>
+
+          								<ul class="external">
+          									<li>
+          										<a class="fancybox" title="New Zealand Land Search and
+          										Rescue Inc. (LandSAR)"
+          										href="img/portfolio/landsar.png" data-fancybox-group="works" >
+          										<i class="fa fa-plus"></i></a>
+          									</li>
+          									<!-- <li><a href=""><i class="fa fa-link"></i></a></li> -->
+          								</ul>
+          							</li>
+          							<!--End of Landsar Wellington  -->
+
+          							<!-- Vic Books New Zealand -->
+
+          							<li class="portfolio-item">
+          								<img src="img/portfolio/vicbooks.png" class="img-responsive"
+          									alt="<h5>The work I have done on this project were:</h5>
+          									<ul>
+          										<li>Site Migration.</li>
+          										<li>Apache Configuration.</li>
+          										<li>Update Database.</li>
+          										<li>PHP Update.</li>
+          									</ul>
+          									<h5>To visit this site please
+          									<a href='https://www.vicbooks.co.nz/' target='_blank'>
+          									click here.</h5>
+          									</a>">
+
+          								<figcaption class="mask">
+          									<h3>Vic Books</h3>
+          									<p>New Zealand</p>
+          								</figcaption>
+
+          								<ul class="external">
+          									<li>
+          										<a class="fancybox" title="Vic Books New Zealand"
+          										 data-fancybox-group="works" href="img/portfolio/vicbooks.png">
+          										 <i class="fa fa-plus"></i></a>
+          									</li>
+          									<!-- <li><a href=""><i class="fa fa-link"></i></a></li> -->
+          								</ul>
+          							</li>
+          							<!-- End of Vic Books New Zealand -->
+
+          							<!-- Barnardos  -->
+
+          							<li class="portfolio-item">
+
+          								<img src="img/portfolio/barnardos.png" class="img-responsive"
+          									alt="
+          									<h5>For this site I updated Word Press CMS and Plugins to
+          										the latest version. To visit the site please
+          									  <a href='http://www.childandyouthfriendlychristchurch.org.nz/'
+          									  target='_blank'> click here.</a>
+          									</h5>" >
+
+
+          								<figcaption class="mask">
+          									<h3>Child and Youth Friendly Christchurch</h3>
+          									<p></p>
+          								</figcaption>
+          								<ul class="external">
+          									<li>
+          										<a class="fancybox" title="Child and Youth Friendly Christchurch"
+          											data-fancybox-group="works" href="img/portfolio/barnardos.png">
+          										<i class="fa fa-search"></i></a>
+          									</li>
+          									<!-- <li><a href=""><i class="fa fa-link"></i></a></li> -->
+          								</ul>
+          							</li>
+
+          					<!-- End of Barnardos------>
+          					<!-- Huia Bookshop -->
+          							<li class="portfolio-item">
+
+          								<img src="img/portfolio/huia.png" class="img-responsive"
+          								 	alt="
+          									<h5>The work I have done on this project were:</h5>
+          									<ul>
+          										<li>Site Migration.</li>
+          										<li>Apache Configuration.</li>
+          										<li>Database Update.</li>
+          										<li>PHP Update.</li>
+          									</ul>
+          									<h5>To visit the site please
+          									<a href='http://www.huia.co.nz/huia-bookshop/bookshop/'
+          									target='_blank'> click here.</a></h5>">
+
+          								<figcaption class="mask">
+          									<h3>Huia</h3>
+          									<p>Bookshop</p>
+          								</figcaption>
+
+          								<ul class="external">
+          									<li>
+          										<a class="fancybox" title="Huia Bookshop"
+          										data-fancybox-group="works" href="img/portfolio/huia.png">
+          										<i class="fa fa-plus"></i></a>
+          									</li>
+          									<!-- <li><a href=""><i class="fa fa-link"></i></a></li> -->
+          								</ul>
+          							</li>
+          					<!-- End of Huia Bookshop -->
+
+          					<!-- Wrigth & Gray -->
+          							<li class="portfolio-item">
+          								<img src="img/portfolio/wrigth-gray.png" class="img-responsive"
+          								alt="
+          								<h5>The work I have done on this project were:</h5>
+          								<ul>
+          									<li>Site Migration.</li>
+          									<li>Apache Configuration.</li>
+          									<li>Database Update.</li>
+          									<li>PHP Update.</li>
+          								</ul>
+          								<h5>To visit this site please
+          								<a href='http://www.wrightgray.co.nz/'
+          								target='_blank'> click here.</a></h5>">
+
+          								<figcaption class="mask">
+          									<h3>Wright &amp; Gray</h3>
+          									<p>Architects</p>
+          								</figcaption>
+          								<ul class="external">
+          									<li><a class="fancybox" title="Wright &amp; Gray"
+          										data-fancybox-group="works" href="img/portfolio/wrigth-gray.png">
+          										<i class="fa fa-plus"></i></a>
+          									</li>
+          									<!-- <li><a href=""><i class="fa fa-link"></i></a></li> -->
+          								</ul>
+          							</li>
+          					<!-- End of Wright and Gray -->
+          						</ul>
+          					</div>
+          				</div>
+          			</section>
+          			<!-- end portfolio section -->
+
+          			<!-- Testimonial section -->
+          			<section id="testimonials" class="parallax">
+          				<div class="overlay">
+          					<div class="container">
+          						<div class="row">
+
+          							<div class="sec-title text-center white wow animated fadeInDown">
+          								<h2>What people say about me</h2>
+          							</div>
+
+          							<div id="testimonial" class=" wow animated fadeInUp">
+          								<div class="testimonial-item text-center">
+          									<img src="img/people/LisaBrand.jpg" alt="References">
+          									<div class="clearfix">
+
+          										<span>Lisa Brand - Head Of Hall - Katharine Jermyn Hall</span>
+
+          										<p>
+          											I have known Rodrigo Delgado since we worked together at
+          										 	Nomads Capital/Blend bar in 2013.
+          										</p>
+                              <p>
+          											He left to travel the world and since returning back to
+          											New Zealand. I have again worked with Rodrigo at Katharine
+          											Jermyn Hall.
+          										</p>
+
+                              <p><i class="fa fa-phone"></i> +64 04 463 9080</p>
+                              <p><i class="fa fa-envelope"></i> Lisa.Brand@vuw.ac.nz</p>
+          									</div>
+          								</div>
+          								<div class="testimonial-item text-center">
+          									<img src="img/people/rohan.jpg" alt="References">
+          									<div class="clearfix">
+          										<span>Rohan Wakefield - Managing Director - Enspiral Dev Academy</span>
+          										<p>
+          											We found Rod to be a collaborative member of their cohort.
+          											They achieved a high standard and we wish them all the best
+          											in the next steps in their career. For any further information
+          											on Rod please contact Enspiral Dev Academy.
+          										</p>
+                              <p><i class="fa fa-phone"></i> 022 368 6338</p>
+                              <p><i class="fa fa-envelope"></i>rohan@devacademy.co.nz</p>
+          									</div>
+          								</div>
+          								<div class="testimonial-item text-center">
+          									<img src="img/people/CassieBlount.jpg" alt="References">
+          									<div class="clearfix">
+          										<span>Cassie Blount - General Manager - The Black Swan</span>
+
+          										<p>A few years ago I had the pleasure of viewing Rodrigo
+          											professional development, and I can state with confidence
+          											that he is a motivated and responsible person with a high
+          											degree of integrity. I expect that he will be a very positive
+          											addition to your company.</p>
+                              <!-- <p><p><i class="fa fa-phone"></i></p> -->
+                              <p><i class="fa fa-envelope"></i>
+          											 Cassie_Blount@hotmail.co.uk</p>
+          									</div>
+          								</div>
+          							</div>
+          						</div>
+          					</div>
+          				</div>
+          			</section>
+          			<!-- end Testimonial section -->
+
+          			<!-- Social section -->
+          			<section id="social" class="parallax">
+          				<div class="overlay">
+          					<div class="container">
+          						<div class="row">
+
+          							<div class="sec-title text-center white wow animated fadeInDown">
+          								<h2>Follow Me</h2>
+          								<p></p>
+          							</div>
+
+          							<ul class="social-button">
+          								<li class="wow animated zoomIn"><a href="https://nz.linkedin.com/in/rodrigo-delgado-5bbb3655" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
+          								<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="https://twitter.com/RoddDelgado" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+          								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="https://github.com/rodrigo-delgado" target="_blank"><i class="fa fa-github  fa-2x"></i></a></li>
+
+          							</ul>
+
+          						</div>
+          					</div>
+          				</div>
+          			</section>
+          			<!-- end Social section -->
+
+          			<!-- Contact section -->
+          			<section id="contact" >
+          				<div class="container">
+          					<div class="row">
+
+          						<div class="sec-title text-center wow animated fadeInDown">
+          							<!-- <h2>Contact</h2>
+          							<p>Leave a Message</p> -->
+          						</div>
+
+
+          						<div class="col-md-1 contact-form wow animated fadeInLeft">
+          							<!-- <form action="#" method="post">
+          								<div class="input-field">
+          									<input type="text" name="name" class="form-control" placeholder="Your Name...">
+          								</div>
+          								<div class="input-field">
+          									<input type="email" name="email" class="form-control" placeholder="Your Email...">
+          								</div>
+          								<div class="input-field">
+          									<input type="text" name="subject" class="form-control" placeholder="Subject...">
+          								</div>
+          								<div class="input-field">
+          									<textarea name="message" class="form-control" placeholder="Messages..."></textarea>
+          								</div>
+          						       	<button type="submit" id="submit" class="btn btn-blue btn-effect">Send</button>
+          							</form> -->
+          						</div>
+
+          						<div class="col-md-5 wow animated fadeInRight">
+          							<address class="contact-details">
+          								<h3>Contact Me</h3>
+          								<p><i class="fa fa-pencil"></i>Rodrigo Delgado<span></span> <span>Mortimer Terrace, Brooklyn, Wellington 6021. </span><span>New Zealand</span></p><br>
+          								<p><i class="fa fa-phone"></i><a href="tel:+64274205866">027 420 5866 </a></p>
+          								<p><i class="fa fa-envelope"></i><a href="mailto:Rod.delgado85@gmail.com">Rod.delgado85@gmail.com</a></p>
+          							</address>
+          						</div>
+
+          					</div>
+          				</div>
+          			</section>
+          			<!-- end Contact section -->
+
+          			<section id="google-map"><br />
+          				<div id="map-canvas" class="wow animated fadeInUp"></div>
+          			</section>
+
+          		</main>
+
+              <footer id="footer">
+			<div class="container">
+				<div class="row text-center">
+					<div class="footer-content">
+						<!-- <div class="wow animated fadeInDown">
+							<p>newsletter signup</p>
+							<p>Get Cool Stuff! We hate spam!</p>
+						</div>
+						<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
+							<div class="input-field">
+								<input type="email" class="subscribe form-control" placeholder="Enter Your Email...">
+								<button type="submit" class="submit-icon">
+									<i class="fa fa-paper-plane fa-lg"></i>
+								</button> -->
+							</div>
+						</form>
+						<div class="footer-social">
+							<ul>
+								<li class="wow animated zoomIn"><a href="https://www.facebook.com/rodrigo.delgado.144" target="_blank"><i class="fa fa-thumbs-up fa-3x"></i></a></li>
+								<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="https://twitter.com/RoddDelgado" target="_blank"><i class="fa fa-twitter fa-3x"></i></a></li>
+								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="https://nz.linkedin.com/in/rodrigo-delgado-5bbb3655" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></li>
+								<li class="wow animated zoomIn" data-wow-delay="0.9s"><a href="https://github.com/rodrigo-delgado" target="_blank"><i class="fa fa-github fa-3x"></i></a></li>
+
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Essential jQuery Plugins
+		================================================== -->
+		<!-- Main jQuery -->
+        <script src="js/jquery-1.11.1.min.js"></script>
+		<!-- Twitter Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+		<!-- Single Page Nav -->
+        <script src="js/jquery.singlePageNav.min.js"></script>
+		<!-- jquery.fancybox.pack -->
+        <script src="js/jquery.fancybox.pack.js"></script>
+		<!-- Google Map API -->
+				<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBs_m8c6fY3k7fNJZmIMztbSMZtCOGhvXk&callback=initMap" type="text/javascript"></script>
+
+		<!-- Owl Carousel -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- jquery easing -->
+        <script src="/js/jquery.easing.min.js"></script>
+        <!-- Fullscreen slider -->
+        <script src="js/jquery.slitslider.js"></script>
+        <script src="js/jquery.ba-cond.min.js"></script>
+		<!-- onscroll animation -->
+        <script src="js/wow.min.js"></script>
+		<!-- Custom Functions -->
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
